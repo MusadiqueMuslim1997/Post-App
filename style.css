@@ -84,13 +84,15 @@ textarea {
     border: none;
     border-bottom: 2px solid;
     border-color: black;
-   
+
 
 }
-textarea:focus{
-    border:none;
+
+textarea:focus {
+    border: none;
 }
-.areas{
+
+.areas {
     object-fit: cover;
 }
 
@@ -105,16 +107,24 @@ textarea:focus{
     outline: none;
 }
 
+input {
+    padding: none;
+}
+
 .items {
     width: 500px;
 
     display: flex;
     align-items: center;
     justify-content: space-around;
+   
     padding: 10px 0px;
 
 }
-
+input{
+    border: none;
+    background-color: transparent;
+}
 ul {
     display: flex;
     align-items: center;
