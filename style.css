@@ -20,17 +20,18 @@ header{
 
 }
 .logo{
-    width: 40%;
+    
     display: flex;
     align-items: center;
     color: black;
     font-size: 2rem;
     font-weight: bolder;
     font-family: sans-serif;
+    
 
 }
 .link{
-    width: 40%;
+    
     display: flex;
     align-items: center;
     justify-content: right;
@@ -50,15 +51,19 @@ a{
     justify-content: center;
    
     margin-top: 80px;
-    background-color: aquamarine;
+   
+    
 }
 .text-area{
-    width: 60%;
+    width: 550px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    padding: 10px;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .area{
     width: 500px;
@@ -68,4 +73,50 @@ a{
 }
 .area:focus{
     outline: none;
+}
+.items{
+    width: 500px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+   
+   
+    gap: 10px;
+}
+
+li{
+    width: 100%;
+    list-style: none;
+    cursor: pointer;
+}
+
+.items-width{
+    width: 60px;
+    height: 30px;
+}
+.items > img{
+    width: 100%;
+    object-fit: cover;
+}
+button{
+    width: 500px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    background-color: rgb(75, 75, 221);
+    color: white;
+    border: none;
+    cursor: pointer;
 }
