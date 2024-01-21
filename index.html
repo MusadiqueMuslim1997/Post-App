@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,40 +8,45 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
 
 
     <header>
-    <div class="logo">Post App</div>
-    <div class="link"><a href="https://github.com/MusadiqueMuslim1997" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+        <div class="logo">Post App</div>
+        <div class="link"><a href="https://github.com/MusadiqueMuslim1997" target="_blank"><i
+                    class="fa-brands fa-github"></i></a></div>
     </header>
 
 
     <section class="hero">
 
-    <div class="text-area">
-        <textarea class="area" placeholder="Type your post"></textarea>
-        <div class="items">
+        <div class="text-area">
+            <div class="areas" id="post-background">
+                <textarea class="area" placeholder="Type your post" id="text-area"></textarea>
+            </div>
+            <div class="items">
 
-            <ul>
-               <li><input type="color" class="items-width"></li>
-               <li><img  class="items-width" src="images/im1.jpg" alt=""></li>
-               <li><img  class="items-width" src="images/im2.jpg" alt=""></li>
-               <li><img  class="items-width" src="images/im3" alt=""></li>
-               <li><img  class="items-width" src="images/im4.jpg" alt=""></li>
-               <li><input type="color" class="items-width"></li>
-            </ul>
-              
-           </div>
-           <button>Post</button>
+                <ul>
+                    <li><input onchange="changeColor()" type="color" class="items-width" id="text-color"></li>
+                    <li><img onclick="setBackground()" class="items-width" src="images/im1.jpg" alt=""></li>
+                    <li><img onclick="setBackground()" class="items-width" src="images/im2.jpg" alt=""></li>
+                    <li><img onclick="setBackground()" class="items-width" src="images/im5.jpg" alt=""></li>
+                    <li><img onclick="setBackground()" class="items-width" src="images/im4.jpg" alt=""></li>
+                    <li><input onchange="changeBackgroundColor()" type="color" class="items-width"></li>
+                </ul>
+
+            </div>
+            <button>Post</button>
 
 
-    </div>
-    
+        </div>
+
 
     </section>
 
     <script src="app.js"></script>
 </body>
+
 </html>
