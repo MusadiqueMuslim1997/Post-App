@@ -61,3 +61,7 @@ function changeStyle(){
         }
     }
 }
+function changeFontSize(){
+    var textArea = document.getElementById("text-area");
+    textArea.style.fontSize = event.target.value + "px";
+}
