@@ -35,6 +35,7 @@ function changeStyle(){
         if( textArea.style.fontStyle === "italic") {
             textArea.style.fontStyle = "normal"
             event.target.style.fontWeight = "normal"
+            
         }
         else{
    
@@ -49,6 +50,7 @@ function changeStyle(){
         if( textArea.style.textDecoration === "underline") {
             textArea.style.textDecoration = "none"
             event.target.style.fontWeight = "normal"
+            
         }
         else{
    
