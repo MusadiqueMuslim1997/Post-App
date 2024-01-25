@@ -40,6 +40,7 @@ function changeStyle(){
    
         textArea.style.fontStyle = "italic";
         event.target.style.fontWeight = "bolder"
+        event.target.style.fontStyle = "italic"
         
         }
     }
@@ -53,6 +54,7 @@ function changeStyle(){
    
         textArea.style.textDecoration = "underline";
         event.target.style.fontWeight = "bolder"
+        event.target.style.textDecoration = "underline"
         
         }
     }
