@@ -72,3 +72,7 @@ function createPsot(){
     items.style.display = "none";
     item.style.display = "none";
 }
+function selectEmoji(){
+    var textArea = document.getElementById("text-area");
+     textArea.value += event.target.value;
+}
