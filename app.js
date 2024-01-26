@@ -65,3 +65,10 @@ function changeFontSize(){
     var textArea = document.getElementById("text-area");
     textArea.style.fontSize = event.target.value + "px";
 }
+
+function createPsot(){
+    var items = document.getElementById("items");
+    var item = document.getElementById("item");
+    items.style.display = "none";
+    item.style.display = "none";
+}

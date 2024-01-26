@@ -37,6 +37,7 @@ header {
 
 }
 
+
 .link {
 
     display: flex;
@@ -51,14 +52,22 @@ a {
     text-decoration: none;
     color: white;
 }
-
+.headers{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
 .hero {
 
 
     display: flex;
     align-items: center;
     justify-content: center;
-
+     flex-wrap: wrap;
     margin-top: 80px;
 
 
