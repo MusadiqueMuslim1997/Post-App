@@ -1,5 +1,6 @@
 
-
+var likes = document.getElementById("likes");
+likes.style.display = "none";
 function setBackground() {
 
     var postBackground = document.getElementById("post-background");
@@ -71,6 +72,9 @@ function createPsot(){
     var item = document.getElementById("item");
     items.style.display = "none";
     item.style.display = "none";
+    var likes = document.getElementById("likes");
+     likes.style.display = "block";
+     likes.style.display = "flex"
 }
 function selectEmoji(){
     var textArea = document.getElementById("text-area");
