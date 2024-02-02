@@ -80,3 +80,10 @@ function selectEmoji(){
     var textArea = document.getElementById("text-area");
      textArea.value += event.target.value;
 }
+
+function liked(){
+    var likes = document.getElementById("likeed")
+    var likeed = document.getElementById("likeede")
+    likes.style.color = "#316FF6";
+    likeed.style.color = "#316FF6";
+}
