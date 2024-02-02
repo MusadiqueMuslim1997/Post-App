@@ -273,3 +273,16 @@ button {
         height: 20px;
     }
 }
+
+
+.inp{
+    width: 100%;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid;
+    text-align: center;
+    justify-content: center;
+}
+.inp:focus{
+    outline: none;
+}

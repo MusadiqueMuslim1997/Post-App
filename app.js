@@ -1,6 +1,7 @@
 
 var likes = document.getElementById("likes");
 likes.style.display = "none";
+
 function setBackground() {
 
     var postBackground = document.getElementById("post-background");
@@ -86,4 +87,12 @@ function liked(){
     var likeed = document.getElementById("likeede")
     likes.style.color = "#316FF6";
     likeed.style.color = "#316FF6";
+}
+var inpt = document.getElementById("inpt");
+inpt.style.display = "none"
+function comment(){
+    var comments = document.getElementById("comments");
+    comments.style.display = "none";
+    var inpt = document.getElementById("inpt");
+    inpt.style.display = "block"
 }
