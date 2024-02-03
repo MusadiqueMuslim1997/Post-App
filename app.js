@@ -69,14 +69,20 @@ function changeFontSize(){
 }
 
 function createPsot(){
+    swal("Alert!", "Your post is successfully!", "success");
     var items = document.getElementById("items");
     var item = document.getElementById("item");
+    var btns = document.getElementById("btns")
     items.style.display = "none";
     item.style.display = "none";
     var likes = document.getElementById("likes");
-     likes.style.display = "block";
-     likes.style.display = "flex"
+    likes.style.display = "block";
+    likes.style.display = "flex"
+    btns.style.display = "none"
+ 
+     
 }
+
 function selectEmoji(){
     var textArea = document.getElementById("text-area");
      textArea.value += event.target.value;
