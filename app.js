@@ -69,7 +69,7 @@ function changeFontSize(){
 }
 
 function createPsot(){
-    swal("Alert!", "Your post is successfully!", "success");
+    // swal("Alert!", "Your post is successfully!", "success");
     var items = document.getElementById("items");
     var item = document.getElementById("item");
     var btns = document.getElementById("btns")
